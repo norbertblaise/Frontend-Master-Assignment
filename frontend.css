@@ -10,6 +10,7 @@ font-family: Open Sans, sans-serif;
 .innerheader{
     background: rgba(0,0,0,.7);
     display: flex;
+    padding-top: 0;
     
     
     
@@ -80,21 +81,25 @@ a.reset-pass{
 
 #page-container{
     position: relative;
-    min-height: 100vh;
+    min-height: 85vh;
 }
 
 #content-wrap{
-    /*padding-bottom: 1.5rem;*/
+    padding: 0px 0px 0px 0px;
     text-align: left;
     align-self: center;
-    height: 100%;
+    position: relative;
+    
+    
+
+    
 }
 
 #footer{
     position: absolute;
     bottom: 0;
     width: 100%;
-    height: 3.0rem;
+    height: 9rem;
 }
 .footerdiv{
     background: #111;
@@ -104,9 +109,13 @@ a.reset-pass{
     margin-left: 20px;
     display: block;
     word-spacing: 20px;
-    font-size: 18px;
+    font-size: 16px;
+    margin 0;
 
 
+}
+.bottomnav{
+    margin: 0;
 }
 
 .connect{
@@ -157,12 +166,12 @@ li{
     display: inline;
 }
 .login{
-    padding-top: 10%;
+    padding-top: 5%;
     
 }
 .appstores{
     text-align: center;
-    padding: 20px 0;
+    padding: 0;
 }
 
 .email{
@@ -182,8 +191,9 @@ li{
     width: 50%;
 }
 .social-copyright{
-    font-size: 14px;
-    padding: 20px 20px;
+    font-size: 13px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 .signoff{
 
